@@ -1,3 +1,3 @@
-from qCircuit.qCircuit import createModelCircuit, createNoisyModelCircuit
+from qCircuit.qCircuit import createModelCircuit, createNoisyModelCircuit, createInputCircuit
 
-__all__ = ['createModelCircuit', 'createNoisyModelCircuit']
+__all__ = ['createModelCircuit', 'createNoisyModelCircuit', 'createInputCircuit']
