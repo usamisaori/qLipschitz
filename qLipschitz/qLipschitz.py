@@ -147,7 +147,7 @@ def qLipschitz(A):
 
 def FairVeriQ(A, epsilon, delta):
     # epsilon <= 1 and delta > 0
-    K_star, kernel = Lipschitz(A)
+    K_star, kernel = qLipschitz(A)
     
     if delta >= K_star * epsilon:
         return True, None
