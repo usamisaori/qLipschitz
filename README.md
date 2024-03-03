@@ -12,20 +12,20 @@
 
 + Bias Pair 与公平性模型
 
-<img src="./images/1.png" width=600 />
+<img src="./images/1.png" width=750 />
 
 + 量子 Lipschitz 常数定义
 
-<img src="./images/2.png" width=600 />
+<img src="./images/2.png" width=750 />
 
 + 公平性定义
 
-<img src="./images/3.png" width=600 />
+<img src="./images/3.png" width=750 />
 
 + 量子 Lipschitz 常数算法
 
-<img src="./images/4.png" width=600 />
+<img src="./images/4.png" width=750 />
 
 + 公平性验证算法
 
-<img src="./images/5.png" width=600 />
+<img src="./images/5.png" width=750 />
