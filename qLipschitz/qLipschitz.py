@@ -197,12 +197,3 @@ class QLipschitz:
 
 # In[18]:
 
-
-__all__ = ['QLipschitz']
-
-
-# In[ ]:
-
-
-
-
