@@ -180,8 +180,8 @@ def generateBiasPair(sigma, kernel, epsilon):
 
 
 class QLipschitz:
-    def __init__(self, model_circuit, measurements, outputs):
-        measurements = getMeasurements(measurements) if type(measurements) == 'int' else measurements
+    def __init__(self, model_circuit, outputs):
+        measurements = getMeasurements(model_circuit.num_qubits)
         self.A = Algorithm(model_circuit, measurements, outputs)
         
     @property
